@@ -1,0 +1,48 @@
+# Example 1 Program Run: 
+
+string describing obstacle ("end" for end of input): A
+x and y coordinate: 0 1
+string describing obstacle ("end" for end of input): X
+x and y coordinate: 1 1
+string describing obstacle ("end" for end of input): E
+x and y coordinate: 0 3
+string describing obstacle ("end" for end of input): K
+x and y coordinate: -1 4
+string describing obstacle ("end" for end of input): W
+x and y coordinate: 0 10
+string describing obstacle ("end" for end of input): end
+obstacle A: (  0.00,   1.00), distance:  1.00m, nearest to this: X
+obstacle X: (  1.00,   1.00), distance:  1.41m, nearest to this: A
+obstacle E: (  0.00,   3.00), distance:  3.00m, nearest to this: K
+obstacle K: ( -1.00,   4.00), distance:  4.12m, nearest to this: E
+obstacle W: (  0.00,  10.00), distance: 10.00m, nearest to this: K
+delete: A X E K W
+
+# Example 2 Program Run
+
+string describing obstacle ("end" for end of input): A
+x and y coordinate: -27.2 12.8
+string describing obstacle ("end" for end of input): B
+x and y coordinate: 0.1 41.4
+string describing obstacle ("end" for end of input): C
+x and y coordinate: 15.9 30.25
+string describing obstacle ("end" for end of input): D
+x and y coordinate: -12.74 29.13
+string describing obstacle ("end" for end of input): E
+x and y coordinate: 27.68 23.45
+string describing obstacle ("end" for end of input): F
+x and y coordinate: 29.41 37.92
+string describing obstacle ("end" for end of input): G
+x and y coordinate: -21.03 45.19
+string describing obstacle ("end" for end of input): H
+x and y coordinate: 13.47 42.1
+string describing obstacle ("end" for end of input): end
+obstacle A: (-27.20,  12.80), distance: 30.06m, nearest to this: D
+obstacle D: (-12.74,  29.13), distance: 31.79m, nearest to this: B
+obstacle C: ( 15.90,  30.25), distance: 34.17m, nearest to this: H
+obstacle E: ( 27.68,  23.45), distance: 36.28m, nearest to this: C
+obstacle B: (  0.10,  41.40), distance: 41.40m, nearest to this: H
+obstacle H: ( 13.47,  42.10), distance: 44.20m, nearest to this: C
+obstacle F: ( 29.41,  37.92), distance: 47.99m, nearest to this: E
+obstacle G: (-21.03,  45.19), distance: 49.84m, nearest to this: D
+delete: A D C E B H F G
