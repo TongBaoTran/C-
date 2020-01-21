@@ -1,6 +1,6 @@
 # C++ PROJECTS
 
-This repository includes some projects written in C++ language for self-learning purpose.
+This repository includes some projects written in C++ language
 
 * Project 1: Game Table\
 Topics involved: Input, Output, Arrays, Strings
