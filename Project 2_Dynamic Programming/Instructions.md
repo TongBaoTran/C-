@@ -6,7 +6,7 @@ To simply identify them each obstacle/point shall store a string ("A", "B", ... 
 
 ## 2. Task 2
 
-Write a function to calculate the Euclidian distance d of two obstacles/points P1 and P2 with coordinates (x1,y1) and (x2,y2) by the formula: d=sqrt((x1−x2)^2+(y1−y2)^2) and return d as function value.
+Write a function to calculate the Euclidian distance d of two obstacles/points P1 and P2 with coordinates (x1,y1) and (x2,y2) and return d as function value.
 
 ## 3. Task 3
 Write a function with a list of obstacles/points as first and one obstacle/point as second parameter calculating the neareast other obstacle/point to it and returning it as pointer. Take care that an obstacle/point does not return itself (distance 0) as well as that at least two obstacles/points need to exist, otherwise a null pointer nullptr shall be returned.
