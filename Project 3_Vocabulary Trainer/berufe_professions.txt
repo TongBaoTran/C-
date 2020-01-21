@@ -1,0 +1,50 @@
+Apotheker;chemist
+Arzt;doctor
+Autor;author
+Baecker;baker
+Bauarbeiter;construction worker
+Optiker;optician
+Juwelier;jeweler, jeweller
+Urologe;urologist
+Bauer;farmer
+Bergarbeiter;miner
+Bestatter;undertaker
+Biologe;biologist
+Busfahrer;bus driver
+Chirurg;surgeon
+Dachdecker;roofer
+Elektriker;eletrician
+Feuerwehrmann;fireman
+Metzger, Fleischer;butcher
+Fliesenleger;tiler
+Schneider;tailor, dressmaker
+Florist;florist
+Friseur;hairdresser
+Gaertner;gardener
+Glaser;glazier
+Hausmeister;caretaker
+Ingenieur;engineer
+Hotelier;hotel keeper, hotelier
+Historiker;historian
+Frauenarzt;gynecologist, gynaecologist
+Klempner;plumber, tinner
+Koch;cook
+Kosmetikerin;beautician, cosmetician
+Krankenschwester;nurse
+Lehrer;teacher
+Maler;painter
+Maurer;bricklayer, brickie
+Physiotherapeut;physiotherapist
+Polizist, Polizistin;policeman, policewoman
+Saenger;singer, vocalist
+Schaefer;shepherd
+Schauspieler, Schauspielerin;actor, actress
+Schornsteinfeger;chimney sweeper
+Sekretaerin;secretary
+Tierarzt;vet
+Tischler;carpenter
+Zahnarzt;zoologist
+Hutmacher;hatter
+Angestellter;clerk, employee, officer
+Pfarrer;pastor, priest, clergyman
+Drogist;druggist

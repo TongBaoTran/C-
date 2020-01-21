@@ -1,0 +1,50 @@
+Hund;dog
+Katze;cat
+Maus;mouse
+Vogel;bird
+Pferd;horse
+Esel;donkey
+Fisch;fish
+Schwein;pig
+Hamster;hamster
+Adler;eagle
+Kaninchen;rabbit, bunny
+Spinne;spider
+Lachs;salmon
+Biene;bee
+Ratte;rat
+Fledermaus;bat
+Schaf;sheep
+Truthahn;turkey
+Gans;goose
+Tiger;tiger
+Hai;shark
+Kamel;camel
+Fliege;fly
+Hummel;bumble bee
+Affe;ape, monkey
+Hummer;lobster
+Marienkaefer;ladybird, ladybeetle
+Amsel;blackbird
+Heuschrecke;grasshopper
+Nashorn;rhino, rhinoceros
+Igel;hedgehog
+Muecke;midge, punkie, gnat
+Hornisse;hornet
+Krebs;crab
+Forelle;trout
+Regenwurm;earthworm
+Libelle;dragonfly
+Eidechse;lizard
+Biber;beaver
+Meerschweinchen;cavy, guinea pig
+Schwalbe;martin, swallow
+Nachtigall;nightingale
+Erdmaennchen;meerkat
+Rabe;corbie, raven
+Falke;falcon, hawk
+Ziege;goat
+Flusspferd;hippo
+Meise;tit
+Hyaene;harpy
+Robbe;pinniped, seal
