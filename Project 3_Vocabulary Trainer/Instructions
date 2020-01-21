@@ -1,0 +1,59 @@
+# Small and fast vocabulary trainer
+
+Two small example files with vocabularies for professions and animals given in german and english language are given for tests.
+The vocabulary trainer shall be realised by a so called associative array.
+An associative array is an array which uses strings instead of natural numbers as indices, which are called keys.
+Since they are often used for electronic dictionaries associative arrays are called dictionaries, too.
+
+Beispiele/Examples
+
+Schlüssel -> Wert/
+Key -> Value
+
+hashtable["Hund"] -> "dog"
+hashtable["Katze"] -> "cat"
+hashtable["Maus"] -> "mouse"
+hashtable["Vogel"] -> "bird"
+
+To realise such associative arrays so called hashing or hash tables can be used. For these from the string called key a natural number is calculated as index into a normal array.
+The function generating a number from a string t as key is called hashing or hash function h(t), since the indices/used array elements in the normal array are typically scattered and not ordered/sorted giving the name to it.
+There are different possibilities to define such hash functions. A simple idea is the division rest method. A given number p - most often chosen are prime numbers - defines the length of an array. For a string t (in 7-bit-ASCII code, therefore characters from 0 to 27−1=127) with letters t= "b1b2b3…bn" can then be calculated without number overflows:
+
+h(t)=(…((b_1⋅128+b_2) mod p)⋅128+b_3) mod p)⋅128+…+b_(n−1))modp)⋅128+b_n) mod p.
+
+(The function/operator mod returns the rest of division, in C/C++ the operator %)
+
+Examples Hashing Values
+
+Let p=661.
+
+h("Hund") = (((((72⋅128+117) mod 661)⋅128+110) mod 661)⋅128+100) mod 661=397.
+
+h("Katze") = ((((((75⋅128+97) mod 661)⋅128+116) mod 661)⋅128+122) mod 661)⋅128+101) mod 661=214
+
+Such a hash function allows to map arbitrary long strings - a huge infinite number of strings - onto a finite number inbetween 0 and p−. It might happen that different strings tk, tl (and also further ones) are mapped onto the same number/index h(tk)=h(tl)=i. This is called a collision.
+Different solutions exist to deal with such collisions. A very easy one is to increment the calculated index i in a loop by 1 (therefore i+1, i+2, ...) until the first free array element is found and use instead this. If during incrementing value p is reached counting proceeds at the first index of the array. This method is called linear collision strategy.
+As smaller prime number p, the length of the array, will be, as more collisions can be expected. In the end maximum p elements can be stored in the array. Are there no collisions search is extremely fast (only O(1) time consumption plus the calculation of the hash value/index). Hashing tables with a big number p are used very often and preferred for many problems. Are there a lot of collisions search can get linear on the whole array (for m≤p entires in the array O(m) time consumption).
+
+Following sub tasks have to be solved without using predefined C++ template/container classes like map:
+
+1. Define a type with name Entry with two C++ strings as components key and value for a german and an english term.
+
+2. Define a function implementing above hash function h(t).
+
+3. Define a function inserting a new vocable into the hash table. As first parameter a german string as key, as second parameter the related english string as value for the key and as third parameter the associative array/hash table of above type (1) shall be defined. Please regard that in its body beside calling the hash function (2) also the linear collision strategy has to be defined.
+
+4. Define a further function searching a vocabulary within the hash table and outputting the translated value or an error message that it can not be found.
+As first parameter a german string as key, as second parameter the associative array/hash table of above type (1) shall be defined.
+Please regard that also in its body beside calling the hash function (2) the linear collision strategy has to be regarded.
+
+5. Define a function with a file name as first parameter and an associative array/hash table of type (1) as second.
+The file given by the first parameter has a new german vocable as key and separated by a semicolon (';') as separator the english translation in each line.
+In the body of the function the file shall be read line by line and the vocabulary inserted into the hash table by calling above function (3).
+
+6. 
+Write a function main and like in the examples below
+- first ask for a prime number p.
+- then define an array of type (1) with p elements as hash table.
+- afterwards call function (5) with file "tiere_animals.txt" and the hash table as arguments.
+- last define a loop, where a german word can be inputted from keyboard and the englsih translation is outputted by calling function (4).
