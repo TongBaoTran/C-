@@ -1,0 +1,20 @@
+please input value for (prime) number p: 661
+translate (0 for end): Hund
+Hund -> dog
+translate (0 for end): Katze
+Katze -> cat
+translate (0 for end): Meerschweinchen
+Meerschweinchen -> cavy, guinea pig
+translate (0 for end): Wildschwein
+sorry not known
+translate (0 for end): Reh
+sorry not known
+translate (0 for end): Hase
+sorry not known
+translate (0 for end): Huhn
+sorry not known
+translate (0 for end): Kaninchen
+Kaninchen -> rabbit, bunny
+translate (0 for end): Tiger
+Tiger -> tiger
+translate (0 for end): 0
