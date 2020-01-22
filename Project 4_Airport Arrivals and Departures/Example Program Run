@@ -1,0 +1,22 @@
+DUSSELDORF AIRPORT ARRIVALS
+===========================
+Flight   From                Scheduled Expected Gate Check-in Comments
+LH 2010  Munich                  12:40 13:05    A04
+EW 9347  Manchester              14:50          B04
+
+DUSSELDORF AIRPORT DEPARTURES
+=============================
+Flight   To                  Scheduled Expected Gate Check-in Comments
+AF 1307  Paris                   09:10          B51  192-194  departed
+SU 2537  Moscow                  10:40          C31  252-255  boarding
+EW 9466  London-Heathrow         11:15          B35  151-170
+LH 2011  Munich                  13:25          A40  115-120  Code Sharing
+XQ 959   Izmir                   14:55 15:20    C45  240-242
+
+flight AF 1307 deleted
+flight SU 2537 deleted
+flight EW 9466 deleted
+flight LH 2010 deleted
+flight LH 2011 deleted
+flight EW 9347 deleted
+flight XQ 959 deleted
