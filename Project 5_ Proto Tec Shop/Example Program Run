@@ -1,0 +1,43 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                        P R O T O - T E C - S H O P                         +
++                     Y O U R   S H O P P I N G C A R T                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 YOOLOX 10k Wireless Powerbank Qi
+                                                 36.99 EUR          110.96 EUR
+                                                                 -------------
+                                                 sum net price:      93.24 EUR
+                                                           tax:      17.72 EUR
+                                               sum gross price:     110.96 EUR
+                                                                 -------------
+                                                      shipping:       5.90 EUR
+                                                                 -------------
+                                                         total:     116.86 EUR
+                                                                 =============
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                        P R O T O - T E C - S H O P                         +
++                     Y O U R   S H O P P I N G C A R T                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 ASUS ROG Strix Scar III G731, RAM 16GB, MS Windows OS, 512GB SSD + 1TB SSHD
+                                               1887.99 EUR         1887.99 EUR
+ 2 Apple iPhone 11 Pro 256GB, RAM 4GB, iOS phone
+                                               1305.99 EUR         2611.98 EUR
+ 1 Samsung Galaxy S10+ SM-G975F/DS Dual SIM, RAM 8GB, Android OS phone
+                                                787.39 EUR          787.39 EUR
+ 3 YOOLOX 10k Wireless Powerbank Qi
+                                                 36.99 EUR          110.96 EUR
+                                                                 -------------
+                                                 sum net price:    4536.40 EUR
+                                                           tax:     861.92 EUR
+                                               sum gross price:    5398.32 EUR
+                                                                 -------------
+                                                      shipping:       0.00 EUR
+                                                                 -------------
+                                                         total:    5398.32 EUR
+                                                                 =============
+
+~ShoppingCart()
+delete article: ~InCart() 1 ~Notebook() ~Device() ~Article() ASUS ROG Strix Scar III G731
+delete article: ~InCart() 2 ~Phone() ~Device() ~Article() Apple iPhone 11 Pro 256GB
+delete article: ~InCart() 1 ~Phone() ~Device() ~Article() Samsung Galaxy S10+ SM-G975F/DS Dual SIM
+delete article: ~InCart() 3 ~Accessory() ~Article() YOOLOX 10k Wireless Powerbank Qi
