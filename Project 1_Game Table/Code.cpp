@@ -1,11 +1,3 @@
-/*
-Task: H1
-Family Name: Tong
-Given Name: Bao Tran
-Matriculation number: 3086478
-Uni-Email: bao.tong@stud.uni-due.de
-Course of Studies: ISE CE
-*/
 
 #include <iostream>
 #include <string>
