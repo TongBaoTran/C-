@@ -22,7 +22,7 @@ Define a function with a one-dimensional array of teams (having the data type de
 
 ## 7. Menu
 - first the number of teams gets asked and
-- an arra exactly fitting in size being defined
+- an array exactly fitting in size being defined
 - values in the array getting initialised by a call to the function defined in task 2 and the initial game table getting outputted.
 - Afterwards by a small menu
 - results from single matches shall be inputted and the ranking getting adjusted,the actual game table getting outputted or resetted
