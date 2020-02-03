@@ -5,7 +5,7 @@
 #include <algorithm>
 using namespace std;
 
-//Task 1:
+//Task 1
 struct Team{
    string name;
    int points;
